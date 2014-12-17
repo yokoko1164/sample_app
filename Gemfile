@@ -7,6 +7,7 @@ ruby '2.1.5'
 gem 'rails', '4.1.8'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.12.3'
+gem 'bcrypt-ruby', '3.1.2'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3', '1.3.8'
@@ -56,3 +57,4 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem "shoulda-matchers", "~> 2.6.0"
