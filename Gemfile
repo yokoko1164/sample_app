@@ -8,10 +8,12 @@ gem 'rails', '4.1.8'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.12.3'
 gem 'bcrypt-ruby', '3.1.2'
+gem 'faker', '1.1.2'
+gem 'will_paginate'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3', '1.3.8'
-  gem 'rspec-rails', '2.13.1'
+  gem "rspec-rails", '~> 2.14.0.rc1'
   gem 'factory_girl_rails', '4.2.1'
 end
 
